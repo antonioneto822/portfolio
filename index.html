@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        
+        .container1 {
+           
+            padding: 20px; 
+        }
+    </style>
+</head>
+<body>
+
+    <div class="fundo">
+        <div class="menu">
+            <div class="sobre" onclick="scrollToSection('sobre-mim')">sobre</div>
+            <div class="projetos" onclick="scrollToSection('projectt')">projetos</div>
+            <div class="habilidades" onclick="scrollToSection('habilits')">habilidades</div>
+            <div class="contatos" onclick="scrollToSection('contact')">contato</div>
+
+
+            
+            <button class="theme-toggle" onclick="toggleTheme()">Mudar Tema</button>
+
+  <script>
+    function toggleTheme() {
+      const body = document.body;
+      const button = document.querySelector('.theme-toggle');
+      
+      
+      body.classList.toggle('dark-mode');
+      
+      
+      button.classList.toggle('active');
+    }
+  </script>
+
+            
+        </div>
+
+
+
+        
+
+        <div class="nome-container"> 
+            <div class="nome"><b>ANTONIO NOGUEIRA</b></div>
+            <div class="prog">PROGRAMADOR</div>
+        </div>
+
+        <div class="scroll-container">
+            <div class="scroll">SCROLL</div>
+            <div class="traco"></div>
+        </div>
+    </div>
+
+    <div class="container1" id="sobre-mim" data-aos="fade-up">
+        <div class="mim"><b>SOBRE MIM</b></div>
+        <div class="nome2">Olá, meu nome é Antônio</div>
+        <img src="eu.png" width="300" class="eu">
+    </div>
+
+    <div class="traco2" data-aos="fade-up"></div>
+
+    <div class="mim2" data-aos="fade-up">Sou um programador apaixonado por design, sempre em busca de soluções criativas e funcionais. Além da programação, tenho grande interesse em design e gosto de aplicar minha criatividade para desenvolver interfaces e experiências visuais que encantam os usuários.</div>
+    <div class="mim2" data-aos="fade-up">Tenho facilidade em aprender novas tecnologias e conceitos, o que me permite adaptar rapidamente a diferentes projetos. Além disso, sou uma pessoa que lida bem com equipes, com habilidade em comunicação e trabalho colaborativo, essencial para o desenvolvimento de projetos de sucesso.</div>
+    <div class="mim2" data-aos="fade-up">Com experiências em projetos com uso de HTML e CSS, com uma abordagem de desenvolvimento centrada no usuário, buscando a melhor experiência do usuário nos mais diversos dispositivos.</div>
+
+    <div class="conti" data-aos="fade-up">Continue me conhecendo através dos meus trabalhos abaixo...</div>
+
+    <div class="projectt" id="projectt" data-aos="fade-up">
+        <div class="projetos2" data-aos="fade-up">Projetos</div>
+
+        <div class="container" data-aos="fade-up">
+            <div class="image-section">
+                <img src="tonhao.png" alt="Site delivery mockup" class="mockup">
+            </div>
+            <div class="info-section">
+                <h1>Tonhão Burguer</h1>
+                <p class="description">Site de delivery para trabalho escolar</p>
+                <div class="tech-list">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+                <a href="https://antonioneto822.github.io/sitedelivery/" class="project-link" target="_blank">Ver projeto ></a>
+                <a href="https://github.com/antonioneto822" target="_blank">
+                    <img src="git.png" alt="GitHub logo" class="github-logo">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="traco3"></div>
+
+    <div class="habilits" id="habilits" data-aos="fade-up">
+        <div class="titlehabilits" data-aos="fade-up">Habilidades</div>
+        <div class="web">Desenvolvimento Web</div>  
+
+        <div class="container3" data-aos="fade-up">
+            <div class="section3">
+                <div>
+                    <img src="Html 6 (1).png" alt="HTML">
+                    <p class="label3">HTML</p>
+                </div>
+                <div>
+                    <img src="CSS3.png" alt="CSS">
+                    <p class="label3">CSS</p>
+                </div>
+                <div>
+                    <img src="JavaScript.png" alt="JavaScript">
+                    <p class="label3">JavaScript</p>
+                </div>
+            </div>
+
+            <div class="web2">Design</div>
+
+            <div class="section3">
+                <div>
+                    <img src="image 14.png" alt="Canva">
+                    <p class="label3">CANVA</p>
+                </div>
+                <div>
+                    <img src="image 6 (1).png" alt="Figma">
+                    <p class="label3">FIGMA</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact" id="contact" data-aos="fade-up">
+        <div class="contato" data-aos="fade-up">Contato</div>                                                                   
+        <div class="traco3"></div>
+        <div class="contato2">Formas de entrar em contato comigo</div>
+
+        <div class="gitlogo" data-aos="fade-up">
+            <div class="icon"><img class="dark-image" src="image 7.png" alt=""></div>
+            <div class="username">antonioneto822</div>
+        </div>
+        
+        <div class="linkedin" data-aos="fade-up">
+            <div class="icon2"><img class="dark-image" src="image 8 (1).png" alt=""></div>
+            <div class="username2">Antonio Neto</div>
+        </div>
+        
+        <div class="linkedin" data-aos="fade-up">
+            <div class="icon2"><img class="dark-image" src="Logogmail.png" alt=""></div>
+            <div class="username2">antonio.nogueiraneto977@gmail.com</div>
+        </div>
+    </div>
+
+    <div class="formulario" data-aos="fade-up">Formulário de Contato</div>
+
+    <div class="form-container" data-aos="fade-up">
+        <form>
+            <input type="text" name="name" placeholder="Nome" class="form-input" required>
+            <input type="email" name="email" placeholder="E-mail" class="form-input" required>
+            <textarea name="message" placeholder="Sua mensagem" class="form-textarea" required></textarea>
+            <button type="submit" class="form-button">Enviar</button>
+        </form>
+    </div>
+
+    <div class="traco4"></div>
+
+    <div class="rodape" >
+        <div class="icon4"><img class="dark-image" src="image 7.png" alt=""></div>
+        <div class="icon5"><img class="dark-image" src="image 8 (1).png" alt=""></div>
+        <div class="icon6"><img class="dark-image" src="Logogmail.png" alt=""></div>
+        <div class="direitos">© 2024 por Antonio Nogueira. Todos os direitos reservados.</div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.js"></script>
+    <script>
+        AOS.init(); // Inicializa a biblioteca AOS
+
+        function myFunction() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+        }
+
+        function scrollToSection(id) {
+            const section = document.getElementById(id);
+            if (section) {
+                const targetPosition = section.getBoundingClientRect().top + window.pageYOffset;
+                const startPosition = window.pageYOffset;
+                const distance = targetPosition - startPosition;
+                const duration = 1000; // Duração da animação em milissegundos
+                let startTime = null;
+
+                function animation(currentTime) {
+                    if (startTime === null) startTime = currentTime;
+                    const timeElapsed = currentTime - startTime;
+                    const progress = Math.min(timeElapsed / duration, 1); // Normaliza o tempo
+                    const ease = easeInOutQuad(progress); // Aplica a função de easing
+
+                    window.scrollTo(0, startPosition + distance * ease); // Rola para a nova posição
+
+                    if (timeElapsed < duration) {
+                        requestAnimationFrame(animation); // Continua a animação até o final
+                    }
+                }
+
+                requestAnimationFrame(animation); // Inicia a animação
+            }
+        }
+
+        function easeInOutQuad(t) {
+            return t < 0.5 ? 2 * t * t : -1 + (4 - 2 * t) * t; // Função de easing
+        }
+    </script>
+</body>
+</html>
